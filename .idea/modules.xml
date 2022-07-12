@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/网络编程.iml" filepath="$PROJECT_DIR$/网络编程.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netProgramme.iml" filepath="$PROJECT_DIR$/netProgramme.iml" />
     </modules>
   </component>
 </project>
