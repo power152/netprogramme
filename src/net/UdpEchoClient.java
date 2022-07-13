@@ -34,6 +34,7 @@ public class UdpEchoClient {
             String request = scan.next();
 
             // 2、
+            // 这里的ip地址需要用到 InetAddress 来封装一下
             DatagramPacket requestPacket = new DatagramPacket(request.getBytes(),request.getBytes().length,
                     InetAddress.getByName(serverIp),serverPort);
             socket.send(requestPacket);
